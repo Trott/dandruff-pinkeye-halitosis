@@ -18,16 +18,6 @@ name();
 //=> 'Hong Kong Halitosis'
 ```
 
-
-## API
-
-### ()
-
-Type: `string`
-
-Random pandemic name.
-
-
 ## CLI
 
 ```
