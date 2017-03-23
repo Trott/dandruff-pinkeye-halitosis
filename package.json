@@ -1,0 +1,46 @@
+{
+  "name": "dandruff-pinkeye-halitosis",
+  "version": "0.0.0",
+  "description": "Name generator for the Pandemic Legacy game",
+  "license": "MIT",
+  "repository": "Trott/dandruff-pinkeye-halitosis",
+  "bin": {
+    "dandruff-pinkeye-halitosis": "cli.js"
+  },
+  "author": {
+    "name": "Rich Trott",
+    "email": "rtrott@gmail.com"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "names",
+    "metal",
+    "word",
+    "words",
+    "list",
+    "array",
+    "random",
+    "rand",
+    "pandemic",
+    "cities"
+  ],
+  "dependencies": {
+    "lodash": "^3.3.0",
+    "meow": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
