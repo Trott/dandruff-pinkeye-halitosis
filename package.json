@@ -19,7 +19,9 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "cities.json",
+    "diseases.json"
   ],
   "keywords": [
     "cli-app",
