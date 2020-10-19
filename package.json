@@ -12,10 +12,10 @@
     "email": "rtrott@gmail.com"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "standard && c8 --check-coverage --lines 100 --functions 100 --branches 100 node test.js"
   },
   "files": [
     "index.js",
@@ -39,10 +39,38 @@
     "cities"
   ],
   "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "lodash.sample": "^4.2.1",
-    "meow": "^2.1.0"
+    "meow": "^2.1.0",
+    "semantic-release": "^17.2.1"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "0.0.4",
+    "c8": "^7.3.4",
+    "standard": "^14.3.4"
+  },
+  "release": {
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "changelog.md"
+            }
+        ],
+        "@semantic-release/npm",
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "changelog.md",
+                    "package.json"
+                ],
+                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ]
+    ]
   }
 }

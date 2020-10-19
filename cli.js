@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const pandemics = require('./');
+'use strict'
+const meow = require('meow')
+const pandemics = require('./')
 
 meow({
-	help: [
-		'Examples',
-		'  $ dandruff-pinkeye-halitosis',
-		'  Hong Kong Halitosis'
-	].join('\n')
-});
+  help: [
+    'Examples',
+    '  $ dandruff-pinkeye-halitosis',
+    '  Hong Kong Halitosis'
+  ].join('\n')
+})
 
-console.log(pandemics());
+console.log(pandemics())
