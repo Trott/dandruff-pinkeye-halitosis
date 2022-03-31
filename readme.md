@@ -25,11 +25,9 @@ $ npm install --global dandruff-pinkeye-halitosis
 ```
 
 ```
-$ dandruff-pinkeye-halitosis --help
-
-  Examples
-    $ dandruff-pinkeye-halitosis
-    San Francisco Pinkeye
+$ dandruff-pinkeye-halitosis
+San Francisco Pinkeye
+$
 ```
 
 ## License
