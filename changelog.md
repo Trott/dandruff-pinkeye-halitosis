@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/Trott/dandruff-pinkeye-halitosis/compare/v3.0.0...v3.0.1) (2022-03-31)
+
+
+### Bug Fixes
+
+* correct example in README ([#19](https://github.com/Trott/dandruff-pinkeye-halitosis/issues/19)) ([8535fc5](https://github.com/Trott/dandruff-pinkeye-halitosis/commit/8535fc561654ef92730df36ebb0d71d04a85c98f))
+
 # [3.0.0](https://github.com/Trott/dandruff-pinkeye-halitosis/compare/v2.0.1...v3.0.0) (2022-03-31)
 
 
